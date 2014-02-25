@@ -59,12 +59,14 @@ a#pdf:hover { background: #222; }
 .job p { margin: 0.75em 0 1.5em 0; }
 
 .last { border: none; }
+.list li { margin-left: 30px; list-style: initial; border-bottom: 0px; }
 .skills-list {  }
 .skills-list ul { margin: 0; }
 .skills-list li { margin: 3px 0; padding: 3px 0; }
 .skills-list li span { font-size: 152%; display: block; margin-bottom: -2px; padding: 0 }
 .talent { padding: 0 10px 10px 0; float: left }
 .talent h2 { margin-bottom: 6px; }
+
 
 #srt-ttab { margin-bottom: 100px; text-align: center;  }
 #srt-ttab img.last { margin-top: 20px }
