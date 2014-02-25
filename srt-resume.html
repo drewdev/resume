@@ -98,19 +98,46 @@
                   <h2>Berklee Online</h2>
                   <h3>Web Software Developer</h3>
                   <h4>2012-present</h4>
-                  <p>Work with various business teams to implement web software solutions used by internal staff along with prospective and active Berklee Online students and faculty.</p>
-                  <p>Delivered a green field rewrite of Berklee's front end catalog web site with test coverage, managed integration points to collaborating legacy systems, and a mechanism for handling cross-domain authentication.</p>
-                  <p>Prototyping parts of a new Learning Management System using AngularJS along with discovery into leveraging a third party service such as Canvas.</p>
-                  <p>Building a middle-tier application for bridging data across disparate third party systems with a drive to make features agnostic to an implementation of a particular end-to-end flow of data.</p>
+                  <p>Work with business teams to implement solutions using Ruby and Ruby on Rails. Manage work through user stories defined in Pivotal Tracker and implemented using TDD. Deploy often to AWS/Heroku using Jenkins for continuous integration and Git for distributed source control.</p>
+                  <p>Delivered a green field rewrite of Berklee's front end catalog web site using Ruby on Rails. Deliverables included:</p>
+                    <ul class="list">
+                      <li>Test suite with Turnip integration tests and unit tests in RSpec</li>
+                      <li>ActiveSupport Concerns to encpasulate behavior used across various models in similar ways</li> 
+                      <li>An ActiveRecord driven schema supported by a legacy namespace holding integration points to data from collaborating systems</li>
+                      <li>Deployment to a new domain name including migration of SEO page rankings</li>
+                      <li>A mechanism for handling cross-domain authentication with the legacy domain name where the provider and many other authenticated systems still live</li>
+                    </ul>
+                  <p>Prototyping a new Learning Management System using many modern tools and frameworks including:</p>
+                    <ul class="list">
+                      <li>Ruby on Rails for the backend API, MongoDB for the persistence layer, and AngularJS for the front end single page application experience.</li>
+                      <li>Many of the mainstay Node.js build tools for supporting AngularJS development including Yeoman for scaffolding, Grunt for tasks, and Bower for asset package management.</li>
+                      <li>End-to-End testing with Protractor and integration testing with Jasmine</li>
+                    </ul>
+                  <p>In addition, research is also invested into how a third party rails-based service like Canvas could be leveraged and extended over building part or all of the LMS system in house</p>
                 </div>
 
                 <div class="job last">
                   <h2>Commonwealth Financial Network</h2>
                   <h3>Web Application Developer</h3>
                   <h4>2007-2012</h4>
-                  <p>Delivered web-based solutions using ASP.NET for use by both internal staff and financial advisor clients and their respective staff.</p>
-                  <p>Designed and implemented a bi-lateral sync enginge for two independent CRM systems used by employees.</p> 
-                  <p>Built a single-page application to centralize and aid in the discovery of the firm's many marketing materials for use by clients. Leveraged the repository pattern to isolate the SharePoint data provider away from the core business objects.</p>
+                  <p>Delivered web-based solutions using ASP.NET and SQL Server for use by both internal staff and financial advisor clients and their respective staff. These included:</p>
+                  <ul class="list">
+                    <li>Data Reporting using SSRS, Crystal, and homegrown reporting solutions</li>
+                    <li>Financial forms and compliance workflows using ASP.NET Web Forms</li>
+                    <li>Extending Microsoft CRM with custom plugins along with external dashboards/widgets consuming MSCRM web resources</li>
+                  </ul>
+                  <p>Delivered several from scratch solutions from requirements gathering to production release. These included an SPA (single-page application) which centralized, annotated, and aided in the discovery of the firm's many marketing materials for use by clients. Implementation included:</p>
+                  <ul class="list">
+                    <li>Working regularly with business stakeholders to help flesh out certain ideas and interactions along with prioritizing work items against deadlines</li>
+                    <li>Implementing a data repository layer to isolate the SharePoint data provider away from the core business objects consumed by the client</li>
+                    <li>Applying an MVC design to the custom javascript modules written to support the SPA behaviors</li>
+                  </ul>
+                  <p>In addition to a bi-lateral sync enginge that married the data between two independent CRM systems used by different departments within the busines. The system was designed to:</p> 
+                  <ul class="list">
+                    <li>Minimize the footprint on the systems being synchronized by using execution plans to tune stored procedure code and setup an isolated staging database environment</li>
+                    <li>Store snapshots of each sync execution allowing for identification and debugging of data anamolies</li>
+                    <li>Use an elastic scope of changes to synchronize being driven by the last successful iteration. This allowed for sync downtime, planned or otherwise, with no impact of overlooking unsynched changes to data</li>
+                  </ul>
                 </div>
               </div><!--// .yui-u -->
             </div><!--// .yui-gf -->
